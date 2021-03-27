@@ -6,3 +6,11 @@ if (dnes.isAfter(mojeKulatiny)) {
 } else {
   console.log('Už brzy velka party!');
 }
+
+if (dnes.isAfter(mojeKulatiny)) {
+  let pEl = document.querySelector('p');
+  pEl.innerHTML = 'Nestihl jsi to';
+} else {
+  let pEl = document.querySelector('p');
+  pEl.innerHTML = 'Už brzy velka party!';
+}
